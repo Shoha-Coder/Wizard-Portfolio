@@ -1,0 +1,97 @@
+export const projectsData = [
+  {
+    id: 1,
+    name: "Fiverr",
+    description: "Fiverr online freelance platform",
+    date: "2023-09-12",
+    demoLink: "https://fiverr.shoha-coder.uz",
+  },
+  {
+    id: 2,
+    name: "Max Way",
+    description: "Max Way Clone",
+    date: "2023-08-01",
+    demoLink: "https://maxway.shoha-coder.uz",
+  },
+  {
+    id: 3,
+    name: "Moody store",
+    description: "Moody Store: Luxury meets tech.",
+    date: "2023-08-20",
+    demoLink: "https://moody-store.shoha-coder.uz",
+  },
+  {
+    id: 4,
+    name: "Walmart",
+    description: "Walmart Ecommerce website",
+    date: "2024-02-12",
+    demoLink: "https://walmart.shoha-coder.uz",
+  },
+  {
+    id: 5,
+    name: "Portfolio",
+    description: "My first portfolio",
+    date: "2024-01-01",
+    demoLink: "https://shoha-coder.uz",
+  },
+  {
+    id: 6,
+    name: "Jira Software",
+    description: "Jira clone of Jira Software",
+    date: "2024-03-02",
+    demoLink: "https://jira.shoha-coder.uz",
+  },
+  {
+    id: 7,
+    name: "Movies",
+    description: "Movies list of movies",
+    date: "2024-02-17",
+    demoLink: "https://movies.shoha-coder.uz",
+  },
+  {
+    id: 8,
+    name: "Apple",
+    description: "Apple: Vite, ReactJS, Three.js. Sleek 3D.",
+    date: "2024-03-21",
+    demoLink: "https://apple.shoha-coder.uz",
+  },
+  {
+    id: 9,
+    name: "Gemini",
+    description: "Gemini: Ai Clone",
+    date: "2024-03-30",
+    demoLink: "https://gemini.shoha-coder.uz",
+  },
+  {
+    id: 10,
+    name: "Wizard Portfolio",
+    description: "Explore Wizard Portfolio.",
+    date: "2024-04-05",
+    demoLink: "https://wizard-portfolio.shoha-coder.uz",
+  },
+];
+
+export const BtnList = [
+  { label: "Home", link: "/", icon: "home", newTab: false },
+  { label: "About", link: "/about", icon: "about", newTab: false },
+  { label: "Projects", link: "/projects", icon: "projects", newTab: false },
+  { label: "Contact", link: "/contact", icon: "contact", newTab: false },
+  {
+    label: "Github",
+    link: "https://www.github.com/shoha-coder",
+    icon: "github",
+    newTab: true,
+  },
+  {
+    label: "X",
+    link: "https://www.x.com/shoha_coder",
+    icon: "twitter",
+    newTab: true,
+  },
+  {
+    label: "Resume",
+    link: "https://shoha-coder.uz/Shoha-Coder%20CV.pdf",
+    icon: "resume",
+    newTab: true,
+  },
+];
